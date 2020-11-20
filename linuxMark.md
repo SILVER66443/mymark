@@ -52,8 +52,20 @@ ssh key：~/.ssh/id_rsa.pub
 
 push操作：git push url
 
-#### 11月17号
+#### 11月20号
+b：设备文件。
+c：串行端口设备。
+s：套接字。
 
+##### 用户权限
+[user group other]
+drwxr-xr-x. 13 root root   155 Nov 16 04:22 
+13：与他相关的资源数
+两个root：拥有者和所属群组
+155：大小
+后面的是修改时间。
+Nov 16 04:22 ：格式  date-time
+单点登录：一次登录，在其余设备就不需要登录了。
 
 
 
