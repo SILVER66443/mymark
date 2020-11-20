@@ -54,8 +54,11 @@ push操作：git push url
 
 #### 11月20号
 b：设备文件。
+
 c：串行端口设备。
+
 s：套接字。
+
 
 ##### 用户权限
 
@@ -75,5 +78,15 @@ Nov 16 04:22 ：格式  date-time
 
 单点登录：一次登录，在其余设备就不需要登录了。
 
+更换组及用户：chown -R silver:testgroup ./test
 
+联级更改权限的参数都是-R。
 
+权限 ： 
+
+s，该文件可执行，执行后该用户进入其文件所属组。
+
+t：
+
+usermod ： usermod -a -G testgroup silver
+  
