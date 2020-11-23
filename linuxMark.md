@@ -88,5 +88,19 @@ s，该文件可执行，执行后该用户进入其文件所属组。
 
 t：
 
+#### 11月23日
 usermod ： usermod -a -G testgroup silver
+linux配置java：环境变量配置在/etc/profi    ~/.bashrcle,但是这是全局环境变量，如果h配置在个人环境下就是    ~/.bashrc
+
+tar -cvf 目标文件 源路径   ：将源路径下的所有东西打包到目标文件
+   >c：建立tar包或者压缩包
+    
+tar -zxvf 目标   ：将目标解压
+   >z：是否同时用gzip压缩.
+   >x：解压或者解包
+    >v：可视化
+    >f：后面跟文件名（只能写在最后面）
+
+
+
   
