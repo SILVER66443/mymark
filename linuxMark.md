@@ -33,7 +33,7 @@
 ##### github相关：
 
 git config --global user.name "你的用户名" 
-
+tar -zxvf apache-maven-3.6.3-bin.tar.gz
 git config --global user.email "你的邮箱"
 
 git config --global core.editor 默认编辑器
@@ -97,10 +97,18 @@ tar -cvf 目标文件 源路径   ：将源路径下的所有东西打包到目�
     
 tar -zxvf 目标   ：将目标解压
    >z：是否同时用gzip压缩.
+   
    >x：解压或者解包
+   
     >v：可视化
+    
     >f：后面跟文件名（只能写在最后面）
 
+shell script：
 
+>unset：取消变量
 
-  
+>readonly:变量只读
+
+>‘’作为变量内容时，里面所有东西全是字符串。
+
