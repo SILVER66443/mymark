@@ -94,7 +94,7 @@ linux配置java：环境变量配置在/etc/profi    ~/.bashrcle,但是这是全
 
 tar -cvf 目标文件 源路径   ：将源路径下的所有东西打包到目标文件
    >c：建立tar包或者压缩包
-    
+    输入密码
 tar -zxvf 目标   ：将目标解压
    >z：是否同时用gzip压缩.
    
@@ -111,4 +111,18 @@ shell script：
 >readonly:变量只读
 
 >‘’作为变量内容时，里面所有东西全是字符串。
+
+#### 11.24
+
+echo ${#name} 加#可以得到长度
+
+echo ${name:1:3} 字符串切片
+
+echo `expr index "hellow" b  找字符，先找到谁就返回其
+
+数组：
+
+> arrs=(v0 v1 v2 v3 v456)
+
+> echo ${arrs[2]}
 
