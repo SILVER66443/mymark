@@ -126,3 +126,5 @@ echo `expr index "hellow" b  找字符，先找到谁就返回其
 
 > echo ${arrs[2]}
 
+http://packages.deepin.com/deepin/pool/non-free/d/deepin.com.qq.im/
+
